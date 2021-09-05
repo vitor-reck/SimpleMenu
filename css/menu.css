@@ -1,0 +1,39 @@
+.container {
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 18rem;
+    
+    padding: 5rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #F1EEF3;
+    box-shadow: 5px 5px #000000;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+
+    padding: 20px;
+    margin-top: 20px;
+
+    background-color: #E2E1E3;
+    border-radius: 10px;
+
+    font-weight: 700;
+
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #717171;
+    color: #E2E1E3;
+}
